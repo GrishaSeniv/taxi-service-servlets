@@ -6,7 +6,8 @@
 
 ## Project description
 
-A simple web-application that supports authentication, registration and other CRUD operations using MySQL as a database and servlets
+A simple web-application that supports authentication, registration and other CRUD operations using MySQL as a database, 
+JAVA Servlets, Dependency Injection principle and N-tier architecture.
 ## 🎯 Features
 
 + registration like a driver
@@ -30,16 +31,13 @@ The model level is represented in the following diagram:
 
 ## 💻 Technologies:
 
-- JAVA
-- Maven
-- Dependency injection
-- Java Servlet
-- Filter
-- JSP
-- JSTL
-- Tomcat
-- N-tier architecture
-- JDBC (MySQL)
+- JAVA 11 or higher
+- Maven 3
+- JAVA Servlet(v.4.x.x), Filter 
+- JSP, JSTL(v.1.2)
+- Tomcat v.9.x.x
+- JDBC
+- MySQL v.8.x.x
 
 ## Installation
 
@@ -48,10 +46,10 @@ The model level is represented in the following diagram:
 - Install [Apache Tomcat v.9.x.x](https://tomcat.apache.org/download-90.cgi) ;
 - Clone this project from GitHub;
 - Change URL, username, password and JDBC driver in taxi-service-servlets\src\main\java\taxi\util\ConnectionUtil.java;
-- Configure Tomcat server :
-- Edit configuration;
-- Tomcat Server -> Local
-    1) Deployment -> add -> artifact -> taxi-service:war exploded
-    2) Application context : /
-    3) Press apply -> okay.
+- Configure Tomcat server:
+  1. Edit configuration;
+  2. Tomcat Server -> Local
+  3. Deployment -> add -> artifact -> taxi-service:war exploded
+  4. Application context : /
+  5. Press apply -> okay.
     
